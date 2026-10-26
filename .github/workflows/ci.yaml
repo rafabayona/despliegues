@@ -20,13 +20,13 @@ jobs:
         run: npm ci
 
       - name: Validar HTML (html-validate)
-        run: npx html-validate index.html
+        run: npx html-validate prac1cicd/index.html
 
       - name: Linting CSS (stylelint)
-        run: npx stylelint "css/**/*.css"
+        run: npx stylelint "prac1cicd/css/**/*.css"
 
       - name: Linting JavaScript (eslint)
-        run: npx eslint js/
+        run: npx eslint prac1cicd/js/
 
       - name: Ejecutar tests unitarios
         run: npm test
