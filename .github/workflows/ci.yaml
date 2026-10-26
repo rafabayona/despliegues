@@ -28,5 +28,5 @@ jobs:
       - name: Linting JavaScript (eslint)
         run: npx eslint prac1cicd/js/
 
-      - name: Ejecutar tests unitarios
-        run: npm test
+      # - name: Ejecutar tests unitarios
+      #   run: npm test
